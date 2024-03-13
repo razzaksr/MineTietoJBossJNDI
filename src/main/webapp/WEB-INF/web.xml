@@ -1,0 +1,53 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+<!--  <servlet>-->
+<!--    <servlet-name>StringJNDIServlet</servlet-name>-->
+<!--    <servlet-class>bean.StringJNDIServletervlet</servlet-class>-->
+<!--    <init-param>-->
+<!--      <param-name>custome</param-name>-->
+<!--      <param-value>java:/custom/MyCustomResource</param-value>-->
+<!--    </init-param>-->
+<!--  </servlet>-->
+<!--  <servlet-mapping>-->
+<!--    <servlet-name>StringJNDIServlet</servlet-name>-->
+<!--    <url-pattern>/pojo/</url-pattern>-->
+<!--  </servlet-mapping>-->
+
+<!--  <resource-ref>-->
+<!--    <res-ref-name>custom/MyCustomResource</res-ref-name>-->
+<!--    <res-type>java.lang.String</res-type>-->
+<!--    <res-auth>Container</res-auth>-->
+<!--&lt;!&ndash;    <mapped-name>java:/custom/MyCustomResource</mapped-name>&ndash;&gt;-->
+<!--  </resource-ref>-->
+
+<!--  <resource-ref>-->
+<!--    <res-ref-name>java:/custom/MyCustomResource</res-ref-name>-->
+<!--    <res-type>java.lang.String</res-type>-->
+<!--    <res-auth>Container</res-auth>-->
+<!--  </resource-ref>-->
+
+  <!--  <resource-env-ref>-->
+<!--    <description>My POJO Resource</description>-->
+<!--    <resource-env-ref-name>jdbc/MyPOJO</resource-env-ref-name>-->
+<!--    <resource-env-ref-type>bean.MyPOJO</resource-env-ref-type>-->
+<!--&lt;!&ndash;    <res-auth>Container</res-auth>&ndash;&gt;-->
+<!--  </resource-env-ref>-->
+
+<!--  <resource-ref>-->
+<!--    <description>My POJO Resource</description>-->
+<!--    <res-ref-name>jdbc/card</res-ref-name>-->
+<!--    <res-type>bean.CreditCard</res-type>-->
+<!--    <res-auth>Container</res-auth>-->
+<!--  </resource-ref>-->
+
+
+<!--  <resource-env-ref>-->
+<!--    <resource-env-ref-name>mybank/card1</resource-env-ref-name>-->
+<!--    <resource-env-ref-type>bean.CreditCard</resource-env-ref-type>-->
+<!--  </resource-env-ref>-->
+</web-app>

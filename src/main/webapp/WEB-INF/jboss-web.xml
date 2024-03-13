@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-web>
+<!--    <resource-ref>-->
+<!--        <res-ref-name>jndi/MyPOJO</res-ref-name>-->
+<!--        <res-type>bean.MyPOJO</res-type>-->
+<!--        <jndi-name>java:global/myApp/SimplePOJO</jndi-name>-->
+<!--    </resource-ref>-->
+</jboss-web>
+
+
+
+        <!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<deployment-->
+<!--        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--&gt;-->
+
+
+<!--    <security>-->
+<!--        <security-domain>other</security-domain>-->
+<!--    </security>-->
+<!--    <resources>-->
+<!--        <env-entry>-->
+<!--            <name>-->
+
+<!--            </name>-->
+<!--            <type>java.lang.Object</type>-->
+<!--            <class>com.your.package.MyPojo</class>-->
+<!--            <jndi-name>java:global/myAppName/myPojo</jndi-name>-->
+<!--            <method-name>getInstance</method-name>-->
+<!--            <method-params/>-->
+<!--        </env-entry>-->
+<!--    </resources>-->
+<!--</deployment>-->
+
+
+
+
+
+        <!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<jboss-web xmlns="http://www.jboss.com/xml/ns/javaee"-->
+<!--           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--           xsi:schemaLocation="http://www.jboss.com/xml/ns/javaee http://www.jboss.org/j2ee/schema/jboss-web_10_0.xsd"-->
+<!--           version="10.0">-->
+
+<!--    &lt;!&ndash; JNDI Binding for customfactory.CreditCard &ndash;&gt;-->
+<!--    <resource-ref>-->
+<!--        <res-ref-name>dlte/credit</res-ref-name>-->
+<!--        <jndi-name>java:global/YourAppName/dlte/credit</jndi-name>-->
+<!--    </resource-ref>-->
+
+<!--    &lt;!&ndash; JNDI Binding for javax.sql.DataSource &ndash;&gt;-->
+<!--    <resource-ref>-->
+<!--        <res-ref-name>dlte/source</res-ref-name>-->
+<!--        <jndi-name>java:global/YourAppName/dlte/source</jndi-name>-->
+<!--    </resource-ref>-->
+
+<!--    &lt;!&ndash; JNDI Binding for bean.Banker &ndash;&gt;-->
+<!--    <resource-ref>-->
+<!--        <res-ref-name>dlte/banker</res-ref-name>-->
+<!--        <jndi-name>java:global/YourAppName/dlte/banker</jndi-name>-->
+<!--    </resource-ref>-->
+
+<!--</jboss-web>-->
